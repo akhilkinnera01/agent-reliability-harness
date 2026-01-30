@@ -72,11 +72,11 @@ ARH provides a **Trust Report** that combines:
 ### 📊 Premium Dashboard Output
 
 <div align="center">
-<img src="examples/UI_1.png" alt="ARH Dashboard" width="200"/>
+<img src="examples/UI_1.png" alt="ARH Dashboard" width="300"/>
 </div>
 
 <div align="center">
-<img src="examples/UI_2.png" alt="ARH Dashboard" width="200"/>
+<img src="examples/UI_2.png" alt="ARH Dashboard" width="300"/>
 </div>
 ---
 

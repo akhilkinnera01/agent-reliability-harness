@@ -11,7 +11,7 @@
 **Before you deploy an AI agent to production, ask: How reliable is it really?**
 
 <p align="center">
-  <img src="./examples/architecture_1.png" width="850" alt="ARH Architecture">
+  <img src="./examples/architecture_1.png" width="550" alt="ARH Architecture">
 </p>
 
 </div>
@@ -23,7 +23,7 @@
 ARH is an **end-to-end reliability testing framework** for AI agents. It applies Site Reliability Engineering (SRE) principles to answer the question: *"Is this AI agent safe to deploy?"*
 
 <p align="center">
-  <img src="./examples/flow_1.png" width="850" alt="ARH Architecture">
+  <img src="./examples/flow_1.png" width="450" alt="ARH Architecture">
 </p>
 
 ### The Problem

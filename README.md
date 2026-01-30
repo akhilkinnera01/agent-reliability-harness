@@ -20,9 +20,7 @@
 
 ARH is an **end-to-end reliability testing framework** for AI agents. It applies Site Reliability Engineering (SRE) principles to answer the question: *"Is this AI agent safe to deploy?"*
 
-<div align="center">
-<img src="assets/pipeline.png" alt="ARH Pipeline" width="500"/>
-</div>
+![ARH Architecture](./examples/arh_flowchart.svg)
 
 ### The Problem
 

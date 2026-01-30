@@ -10,15 +10,19 @@
 
 **Before you deploy an AI agent to production, ask: How reliable is it really?**
 
+<img src="assets/architecture.png" alt="ARH Architecture" width="700"/>
+
+</div>
+
 ---
 
 ## 🚀 What is ARH?
 
 ARH is an **end-to-end reliability testing framework** for AI agents. It applies Site Reliability Engineering (SRE) principles to answer the question: *"Is this AI agent safe to deploy?"*
 
-<p align="center">
-  <img src="./examples/flow_1.png" width="450" alt="ARH Architecture">
-</p>
+<div align="center">
+<img src="assets/pipeline.png" alt="ARH Pipeline" width="500"/>
+</div>
 
 ### The Problem
 
@@ -150,13 +154,27 @@ for finding in report.findings:
 
 ## 🏗️ Architecture
 
-
-<p align="center">
-  <img src="./examples/architecture_1.png" width="550" alt="ARH Architecture">
-</p>
-
-</div>
-
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    Agent Reliability Harness                     │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  ┌──────────────┐    ┌──────────────────┐    ┌──────────────┐   │
+│  │   AI Agent   │───▶│ Reliability Tests │───▶│ Trust Report │   │
+│  │  (Any LLM)   │    │  • Robustness     │    │  • Score     │   │
+│  └──────────────┘    │  • Consistency    │    │  • Verdict   │   │
+│                      │  • Groundedness   │    │  • Findings  │   │
+│  ┌──────────────┐    │  • Predictability │    └──────────────┘   │
+│  │  Documents   │───▶├──────────────────┤                        │
+│  │ (PDF/DOCX/)  │    │ Adversarial      │                        │
+│  │  EPUB/MD)    │    │ Auditor          │                        │
+│  └──────────────┘    │  • Proposer      │                        │
+│                      │  • Solver        │                        │
+│                      │  • Evaluator     │                        │
+│                      └──────────────────┘                        │
+│                                                                  │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ---
 

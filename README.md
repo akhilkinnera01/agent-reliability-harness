@@ -8,6 +8,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
+### 📊 Premium Dashboard Output
+
+<div align="center">
+<img src="examples/UI_1.png" alt="ARH Dashboard" width="500"/>
+</div>
+
+<div align="center">
+<img src="examples/UI_2.png" alt="ARH Dashboard" width="500"/>
+</div>
+---
+
 **Before you deploy an AI agent to production, ask: How reliable is it really?**
 
 <img src="examples/architecture_1.png" alt="ARH Architecture" width="200"/>
@@ -69,16 +80,7 @@ ARH provides a **Trust Report** that combines:
 </tr>
 </table>
 
-### 📊 Premium Dashboard Output
 
-<div align="center">
-<img src="examples/UI_1.png" alt="ARH Dashboard" width="500"/>
-</div>
-
-<div align="center">
-<img src="examples/UI_2.png" alt="ARH Dashboard" width="500"/>
-</div>
----
 
 ## 🏃 Quick Start
 

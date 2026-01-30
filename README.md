@@ -21,7 +21,7 @@
 
 **Before you deploy an AI agent to production, ask: How reliable is it really?**
 
-<img src="examples/architecture_1.png" alt="ARH Architecture" width="200"/>
+<img src="examples/architecture_1.png" alt="ARH Architecture" width="400"/>
 
 </div>
 
